@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e97272;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(233, 235, 158, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.edit-task {
+    display: none;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.edit-button,
+.delete-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #007bff;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    color: #0056b3;
+}
